@@ -1,5 +1,4 @@
-FROM php:7.3-apache
-WORKDIR /docker
+FROM php:5.6-apache
 
 # Copie des fichiers de l'application dans le conteneur
 COPY . /var/www/html/
